@@ -1,0 +1,475 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+	/*background: #F1F1EF;*/
+	margin: 0;
+	padding: 0;
+}
+.bg-con {
+	padding: 0;
+	background: #F1F1EF ;
+}
+.con-main-mid {
+	width: 45%;
+	margin: 0 auto;
+}
+.con-left-pattern {
+	padding: 0;
+}
+.con-left-ul {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	float: left;
+	border-left: 2px solid #31B0D5;
+	background: #E0E0DE;
+	/*box-shadow: 0 3px 5px #666666;*/
+}
+.con-left-ul img {
+	width: 100%;
+	height: 100%;
+}
+.con-left-ul li {
+	width: 100%;
+	height: 80px;
+	border-radius: 0px;
+	border-bottom: 1px solid white;
+	list-style: none;
+	float: left;
+	padding: 0;
+	font-size: 17px;
+	text-align: center;
+}
+.con-left-ul-li-active {
+	background: white;
+	color:#F38300;
+}
+.con-left-ul-li {
+	background: #E0E0DE;
+	color: black;
+	padding: 0;
+}
+.con-left-ul-logo {
+	width: 50%;
+	height: 30px;
+	float: left;
+	margin:15px 0 0 28%;
+	
+}
+.con-left-ul-name {
+	width: 40%;
+	/*height: 40px;*/
+	float: left;
+	margin-left: 28%;
+	font-size: 15px;
+	padding-top: 0;
+}
+/*.qichepiao {
+	background-image: url(../img/goupiao-logo-9.png);
+}*/
+
+
+
+
+
+
+
+.con-right-pattern {
+	height: 320px;
+	box-shadow: 4px 2px 1px #666666;
+	padding: 0;
+	background: white;
+}
+.con-inputgroup-leftdiv{
+	/*width: 100%;*/
+	height: 300px;
+	padding: 0;
+	float: left;
+}
+
+.train-ul {
+	width: 100%;
+	height: 220px;
+	margin-top: 27px;
+	padding: 0;
+	display: none;
+}
+.train-ul li {
+	width: 48%;
+	float: left;
+	margin:30px 0 0 1%;
+	list-style: none;
+	height: 40px;
+	position: relative;
+}
+.chufa-focus {
+	width: 100%;
+	height: 150px;
+	background: white;
+	position: absolute;
+	left: 0;
+	top: 40px;
+	z-index: 999;
+	display: none;
+	border: 1px #CCCCCC solid;
+}
+.chufa-focus-title {
+	width:100%;
+	height: 25px;
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 5%;
+	line-height: 25px;
+	background: #EEF1F4;
+}
+.chufa-focus-table {
+	width: 100%;
+	float: left;
+}
+.chufa-focus-table tr {
+	width: 100%;
+	height: 25px;
+}
+.chufa-focus-table td{
+	width: 20%;
+	height: 25px;
+	float: left;
+	text-align: center;
+	line-height: 25px;
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+}
+.mudi-focus {
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	z-index: 999;
+	display: none;
+	border: 1px solid #CCCCCC;
+}
+.mudi-focus-title {
+	width:100%;
+	height: 25px;
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 5%;
+	line-height: 25px;
+	background: #EEF1F4;
+}
+.mudi-focus-table {
+	width: 100%;
+	float: left;
+}
+.mudi-focus-table tr {
+	width: 100%;
+	height: 25px;
+}
+.mudi-focus-table td{
+	width: 20%;
+	height: 25px;
+	float: left;
+	text-align: center;
+	line-height: 25px;
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+}
+
+.date-focus {
+	width: 100%;
+	height: 150px;
+	background: pink;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	z-index: 999;
+	display: none;
+}
+.goupiao-con-search {
+	float: right;
+	margin-right: 10%;
+}
+
+.bus-div {
+	height: 25px;
+}
+.bus-div input{
+	margin-left: 5%;
+}
+.bus-ul {
+	width: 100%;
+	height: 220px;
+	margin-top: 30px;
+	padding: 0;
+
+}
+.bus-ul li {
+	width: 48%;
+	float: left;
+	margin:30px 0 0 1%;
+	list-style: none;
+	height: 40px;
+	position: relative;
+}
+
+
+.plane-div {
+	height: 25px;
+}
+.plane-div input{
+	margin-left: 5%;
+}
+.plane-ul {
+	width: 100%;
+	height: 220px;
+	margin-top: 30px;
+	padding: 0;
+	display: none;
+}
+.plane-ul li {
+	width: 48%;
+	float: left;
+	margin:30px 0 0 1%;
+	list-style: none;
+	height: 40px;
+	position: relative;
+}
+
+
+.hotel-ul {
+	width: 100%;
+	height: 220px;
+	margin-top: 30px;
+	padding: 0;
+	display: none;
+}
+.hotel-ul li {
+	width: 48%;
+	float: left;
+	margin:30px 0 0 1%;
+	list-style: none;
+	height: 40px;
+	position: relative;
+}
+.hotel-place {
+	width: 80%;
+	float: left;
+	margin:30px 0 0 1%;
+	list-style: none;
+	height: 40px;
+	/*position: relative;*/
+}
+.hotel-place input {
+height: 39.6px;
+}
+
+
+
+
+
+
+
+
+
+/*xs手机界面*/
+
+
+.bg-con-xs {
+	padding: 0;
+}
+.con-xs-title {
+	height: 60px;
+	background: #198DD1;
+	text-align: center;
+}
+.con-xs-title label {
+	color: white;
+	line-height: 60px;
+	font-size: 18px;
+}
+.con-xs-service {
+	height: 70px;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 0;
+}
+.con-xs-service-ul {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.con-xs-service-ul li{
+	width: 25%;
+	height: 70;
+	float: left;
+	text-align: center;
+	list-style: none;
+}
+.con-xs-service-img {
+	width: 50%;
+	height: 45px;
+	float: left;
+	margin:5px 25% 0 25%;
+	padding: 0;
+}
+.con-xs-service-img img {
+	width: 100%;
+	height: 100%;
+}
+.con-xs-service-ul li p {
+	width: 60%;
+	height: 20px;
+	padding: 0;
+	margin:0 20%;
+	font-size: 13px;
+	float: left;
+}
+.con-xs-place {
+	height: 80px;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 20px 15%;
+}
+.xs-icon-change {
+	float: left;
+	line-height: 30px;
+	margin: 0 20%;
+}
+
+.con-xs-date {
+	border-bottom: 1px solid #CCCCCC;
+}
+.con-xs-date table {
+	height: 120px;
+	border: 0px solid #CCCCCC;
+	margin: 0;
+	
+}
+.con-xs-date table td {
+	border: 0px solid transparent !important;
+}
+.con-xs-date p {
+	font-size: 13px;
+	line-height: 30px;
+}
+
+
+.con-xs-trainType {
+	height: 50px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.xs-trainType-btn {
+	margin: 8px 0;
+	float: left;
+}
+.xs-trainType-ul {
+	width: 80%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.xs-trainType-ul li {
+	list-style: none;
+	width: 15%;
+	height: 30px;
+	float: left;
+	margin-left: 5%;
+	line-height: 50px;
+}
+.xs-goupiao-bottom-img {
+	height: 55px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.xs-goupiao-bottom-img img {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.xs-menu {
+	height: 50px;
+	float: left;
+	background: #333333;
+	margin-top: 5px;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index:999;
+}
+.xs-menu-ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.xs-menu-ul li {
+	width: 33.3%;
+	height: 50px;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.xs-menu-ul li a {
+	width: 100%;
+	line-height: 50px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px ) {
+	.chufa-place {
+		width: 25%;
+		font-size: 12px;
+		float: left;
+	}
+	.chufa-focus {
+		width: 50%;
+		background: white;
+	}
+	.mudi-place {
+		width: 25%;
+		font-size: 12px;
+		float: left;
+	}
+	.mudi-focus {
+		width: 50%;
+		left: 45%;
+		background: white;
+	}
+	.date{
+		width: 60%;
+	}
+	.goupiao-con-search {
+		width: 80%;
+		float: left;
+		margin: 40px 10%;
+	}
+}

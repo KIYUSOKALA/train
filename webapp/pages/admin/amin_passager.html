@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">    <!-- 变化  -->
+		<title></title>
+		<link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css" />
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+		<link type="text/css" rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
+		<link type="text/css" rel="stylesheet" href="css/login.css" />
+
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap-datetimepicker.min.js"></script>
+		<script src="js/style.js"></script>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<style>
+			table{
+				margin: 20px auto;
+			}
+		</style>
+		
+
+	</head>
+	<body>
+		<div id="header" class="hidden-xs">       <!--变化-->
+			<div class="header-logo"><img src="img/logo.png"></div>
+			<div class="header-login-info">
+				<ul class="header-login-info-ul">
+					<li class="header-login-info-ul-li"><a class="btn" href="login.html">登陆</a></li>
+					<li class="header-login-info-ul-li"><a class="btn" href="regist.html">注册</a></li>
+					<li class="xiala-li">
+				<div class="dropdown">
+					<a class="btn" type="button" data-toggle="dropdown">
+						我的12306
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="imformation.html">订单管理</a></li>
+						<li><a href="imformation.html">车次管理</a></li>
+						<li class="divider"></li>
+						<li><a href="imformation.html">用户管理</a></li>
+						<li><a href="imformation.html">管理员信息</a></li>
+						<li class="divider"></li>
+						<li><a href="imformation.html">车站广播</a></li>
+						<li><a href="imformation.html">遗失物品查找</a></li>
+						<li><a href="imformation.html">投诉处理</a></li>
+						<li><a href="imformation.html">建议收集</a></li>
+					</ul>
+				</div>
+					</li>
+				</ul>
+			</div>
+			<div class="header-im-nav">
+				<ul>
+					<li><a class="btn">客运首页</a></li>
+					<li><a class="btn">车票预定</a></li>
+					<li><a class="btn">余票查询</a></li>
+					<li><a class="btn">出行向导</a></li>
+					<li><a class="btn">信息服务</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container center-block">
+			<div class="row hidden-xs">          <!--变化-->
+				<label class="label col-sm-2" style="color: #000000;">当前位置：管理用户</label>
+			
+				<table width="80%" height="70" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td colspan="11" id="yonghuguanli">车次管理</td>
+					</tr>
+					<tr>
+						<td>车次</td>
+						<td><input type="text" name="" id="" value="" /></td>
+						<td>始发车站</td>
+						<td>
+							<select name="">
+								<option value="">太原站</option>
+								<option value="">太原南站</option>
+							</select>
+						</td>
+						<td>终点站</td>
+						<td>
+							<select name="">
+								<option value="">运城北</option>
+								<option value="">大同站</option>
+							</select>
+						</td>
+						<td>座位类型</td>
+						<td>
+							<select name="">
+								<option value="">一等座</option>
+								<option value="">二等座</option>
+							</select>
+						</td>
+						<td><input type="button" name="" value="查询" id="btncx"/></td>
+					</tr>
+					<table width="80%" height="50" cellpadding="0" cellspacing="0" border="1" id="bianse">
+						<tr>
+							<td>选择</td>
+							<td>车次	</td>
+							<td>始发站</td>
+							<td>终点站</td>
+							<td>驶向</td>
+							<td>类型</td>
+							<td>软卧</td>
+							<td>硬座</td>
+							<td>余票</td>
+							<td>出发时间</td>
+							<td>到达时间</td>
+							<td>日期</td>
+							<td>操作</td>
+						</tr>
+						
+						<tr>
+							<td><input type="checkbox" name="yh" id="check" value="" /></td>
+							<td>K321</td>
+							<td>1</td>
+							<td>1</td>
+							<td>123456789</td>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td><a href="bianji.html">编辑</a></td>
+						</tr>
+					</table>
+					<table width="80%" height="70" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td><input type="checkbox" name="" id="all" value="" onclick="checkAll()"/>全选</td>
+							<td align="center">
+								<input type="button" name="add" value="增加" id="btnsc"/>
+								<input type="button" name="delete"  value="删除" id="btndc"/>
+							</td>
+						</tr>
+						<tr>
+							<td align="center">》1 2 3 4 5 6 7 8《</td>
+							<td>每页显示
+								<select>
+								<option value="">10</option>
+								<option value="">9</option>
+								<option value="">8</option>
+								<option value="">7</option>
+							</select>条信息</td>
+						</tr>
+					</table>
+
+
+
+					<script type="text/javascript">
+							function checkAll(){
+							var oSelBox = document.getElementById("all");
+							var oYh = document.getElementsByName("yh");
+							if (oSelBox.checked) {
+								for(var i=0;i<oYh.length;i++){
+									oYh[i].checked = true;	
+								}
+							}
+							else{
+								for(var i=0;i<oYh.length;i++){
+									oYh[i].checked = false;
+								}
+							}
+						}
+					</script>
+                
+				
+                
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+			
+			
+			
+		</div>
+	</body>
+</html>
+<script>
+	
+</script>

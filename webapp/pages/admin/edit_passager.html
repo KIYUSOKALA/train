@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#tit{
+				font-size: 30px;
+				color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<table border="0" width="860" cellpadding="0" cellspacing="0" align="center" height="150">
+			<tr>
+				<td id="tit">修改个人信息</td>
+			</tr>
+			
+			<tr>
+				<td>注：标有*处，均为必填项</td>
+			</tr>
+		</table>
+		<table border="0" width="860" cellpadding="0" cellspacing="0" align="center" height="150">
+			<tr>
+				<td colspan="3">登陆信息</td>
+			</tr>
+			<tr>
+				<td>登录名：</td>
+				<td><input type="text" name="" id="" value="" /></td>
+				
+			</tr>
+			<tr>
+				<td>密码初始化：</td>
+				<td><input type="button" name="密码初始化" id="密码初始化" value="密码初始化" /></td>
+			</tr>
+			<tr>
+				<td colspan="2">权限设置</td>
+			</tr>
+			<tr>
+				<td>*用户权限：</td>
+				<td colspan="2">
+					<select name="">
+						<option value="">管理员</option>
+						<option value="">会员</option>
+						<option value="">普通用户</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">*详细信息：</td>
+			</tr>
+			<tr>
+				<td>*真实姓名：</td>
+				<td colspan="2"><input type="text" name="" id="" value="" /></td>
+			</tr>
+			<tr>
+				<td>*性别：</td>
+				<td colspan="2"><input type="radio" name="gender" id="" cheecked/>男<input type="radio" name="gender" id="" />女</td>
+			</tr>
+			<tr>
+				<td>*省份：</td>
+				<td>
+					<select id="selbox1" onchange="f_change()">
+						<option value="">省份</option>
+						<option value="">陕西省</option>
+						<option value="">北京市</option>
+						<option value="">山西省</option>
+					</select>
+				</td>
+				<td>
+					城市
+					<select id="selbox2">
+						<option value="">市县</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>*证件类型：</td>
+				<td colspan="2"><select name="" id="">
+						<option value="">二代身份证</option>
+						<option value="">一代身份证</option>
+						<option value="">护照</option>
+					</select>
+			</td>
+			</tr>
+			<tr>
+				<td>*证件号码：</td>
+				<td colspan="2"><input type="text" name="" id="" /></td>
+			</tr>
+			<tr>
+				<td>*出生日期：</td>
+				<td colspan="2"><input type="text" /></td>
+			</tr>
+			<tr>
+				<td>*旅客类型：</td>
+				<td colspan="2">
+					<select>
+						<option value=""> 成人</option>
+						<option value=""> 儿童</option>
+						<option value=""> 老年人</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>备注：</td>
+				<td colspan="2"><textarea name="" rows="5" cols="40"></textarea></td>
+			</tr>
+			<tr>
+				<td align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" /></td>
+				<td align="center"><input type="reset" /></td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,295 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #E5E5E5;
+}
+/*#body-container {
+	width: 60%;
+	height: 500px;
+	margin: 0 auto;
+	padding: 0;
+	background: red;
+}*/
+.container {
+	width: 60%;
+	/*height: 500px;*/
+	padding: 0;
+	background: white;
+}
+.con-head-top {
+	height: 130px;
+	background: #CCCCCC;
+	padding: 0;
+	margin: 0;
+}
+.con-head-top img {
+	width: 100%;
+	height: 100%;
+}
+.con-top-menu{
+	width: 100%;
+	height: 30px;
+	float: left;
+	background: #198FD3;
+	color: white;
+	margin-bottom: 10px;
+}
+.con-top-menu-time {
+	width: 20%;
+	line-height: 30px;
+	text-align: center;
+	font-size: 11px;
+	float: left;
+	line-height: 30px;
+	color: white;
+}
+.con-top-menu-time a {
+	color: white;
+}
+/*.con-top-menu-ul {
+	width: 80%;
+	height: 30px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+}*/
+.con-top-menu-ul li {
+	/*width: 11%;*/
+	text-align: center;
+	list-style: none;
+	float: left;
+	/*border-left:1px solid white ;*/
+	color: white;
+	margin-left: 1%;
+}
+.con-top-menu-ul li a {
+	color: white;
+}
+.con-left-research {
+	height: 200px;
+	padding: 0;
+}
+.con-research {
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+}
+.con-dongtai {
+	height: 200px;
+}
+.con-dongtai ul{
+	margin: 0;
+	float: left;
+}
+.con-dongtai ul li {
+	width: 100%;
+	float: left;
+	height: 20px;
+	margin-top: 4px;
+	border-bottom: dashed 1px #CCCCCC;
+	font-size: 10px;
+	line-height: 20px;
+}
+.con-dongtai ul li a {
+	color: black;
+}
+.con-dongtai ul li a:hover {
+	color: red;
+}
+.con-dongtai span {
+	float: right;
+	font-size: 10px;
+	width: 20%;
+	height: 20px;
+	line-height: 20px;
+	color: #888888;
+}
+.dt-label {
+	height: 30px;
+	background: #9D9D9D;
+	padding:0;
+}
+.dt-label img {
+	width: 100%;
+	height: 100%;
+}
+.con-right-pattern {
+	margin: 0;
+	padding: 0;
+	height: 240px;
+	float: right;
+}
+.con-right-pattern-img-fh {
+	width: 100%;
+	height: 80px;
+}
+.con-right-pattern-img-ky {
+	width: 100%;
+	height: 50px;
+	margin-top: 3px;
+}
+.con-right-pattern ul {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.con-right-pattern ul li {
+	text-align: center;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background: #EDF2F8;
+	list-style: none;
+	margin: 0.5px 0;
+	border: 1px solid #CCCCCC;
+}
+.con-right-pattern span {
+	width: 23%;
+	height: 30px;
+	float: left;
+	margin: 0 0 1px 5%;
+	padding: 0;
+}
+
+.con-right-pattern ul li a {
+	color: black;
+	font-size: 10px;
+}
+.con-right-pattern ul li a:hover{
+	color: red;
+}
+
+
+
+
+.con-new-sell {
+	height: 40px;
+	background: #ECF4FF;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0;
+}
+.con-new-sell img {
+	width: 100%;
+	height: 100%;
+}
+.con-search {
+	height: 40px;
+	/*padding: 0;*/
+}
+
+
+.con-left-menu {
+	margin: 0;
+	padding: 0;
+}
+.con-left-menu ul {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.con-left-menu ul img {
+	width: 100%;
+	height: 100%;
+}
+.con-left-menu ul li {
+	text-align: center;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background: #EDF2F8;
+	list-style: none;
+	margin: 0.5px 0;
+	border: 1px solid #CCCCCC;
+	
+}
+.con-left-menu span {
+	width: 23%;
+	height: 30px;
+	float: left;
+	margin: 0 0 1px 5%;
+	padding: 0;
+}
+
+.con-left-menu ul li a {
+	color: black;
+	font-size: 10px;
+}
+.con-left-menu ul li a:hover{
+	color: red;
+}
+
+
+.con-imformation {
+	height: 340px;
+	/*background: palegreen;*/
+}
+.con-im-rule {
+	height: 50px;
+	padding: 0;
+}
+.con-im-rule span {
+	width: 49%;
+	height: 50px;
+	float: left;
+}
+.con-im-rule-span2 {
+	margin-left: 2%;
+}
+.con-im-rule span img {
+	width: 100%;
+	height: 100%;
+}
+.con-im-nav {
+	height: 30px;
+	margin-top: 10px;
+}
+.con-im-table{
+	margin-top: 20px;
+}
+.table > thead > tr > th {
+	background: #CCCCCC;
+}
+.table > thead > tr > th, .table 
+> tbody > tr > th, .table > tfoot 
+> tr > th, .table > thead > tr > td, 
+.table > tbody > tr > td, .table > tfoot 
+> tr > td  {
+	padding: 0;
+	height: 22px;
+}
+
+.con-right-link {
+	height: 200px;
+	margin-top: 3px;
+	padding: 0;
+}
+.con-right-link img {
+	width: 100%;
+	height: 100%;
+}
+.con-bottom {
+	height: 80px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.con-bottom img {
+	width: 100%;
+	height: 100%;
+	border-top: 3px solid #198FD3;
+	border-bottom: 1px solid #198FD3;
+}
+
+
+
+
+/*@media only screen and (max-width: 767px) {
+	.container {
+		width: 100%;
+	}
+}*/
